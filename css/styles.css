@@ -1,0 +1,25 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #363636;
+}
+
+.body {
+  width: 80%;
+  margin: auto;
+  padding: 1%;
+  -webkit-box-shadow: 5px 5px 20px 10px #d3d3d3;
+          box-shadow: 5px 5px 20px 10px #d3d3d3;
+  border: 1px solid black;
+}
+
+.header {
+  width: 100%;
+  margin: 0;
+  border: 1px solid black;
+  display: block;
+}
+
+.header .optionsHead {
+  display: inline;
+}
+/*# sourceMappingURL=styles.css.map */
