@@ -7,97 +7,121 @@
         <meta name="description" content="Proyecto integrador, estudiantes Universidad de cundinamarca, ingenieria de sistemas primer semestres"/>
         <meta name="author" content="Diego Garay Fonseca-Joshua Julian Cobos Bautista-David Leonardo Gomez Ochoa"/>
         <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/stylesHeader.css">
         <link rel="stylesheet" href="./css/normal.css">
+        <link rel="stylesheet" href="css/stylesContent.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="body" class="body">
-        <div id="header" class="header">
+        
             <header>
-                <div id=" containerHead" class="containerHead">
-                    <div id="titleHead" class="titleHead">
-                        <h1>ValiSalud</h1>
-                    </div>
-                    <div id="optionsHead" class="optionsHead">
-                        <ul id="MenuHead">
-                            <li id="home" class="home">home</li>
-                            <li id="menuDiabetes" class="menuDiabetes">
-                                Diabetes
-                                <ul id="subMenuDiabetes">
-                                    <li id="infoDiabetes">Info</li>
-                                    <li id="controlDibetes">Control</li>
-                                </ul>
-                            </li>
-                            <li id="menuTension" class="menuTension">
-                                Tension
-                                <ul id="subMenuTension">
-                                    <li id="infoTension">Info</li>
-                                    <li id="controlTension">Control</li>
-                                </ul>
-                            </li>
-                            <li id="menuOptions" class="menuOptions">Options</li>
-                        </ul>
-                    </div>
-                </div>
+                
+                <nav class="headerNav">
+                    <h1 id="h1Header" class="h1Header">ValiSalud</h1>
+                    <ul class="menuHead">
+                        <li class="liMain"><a href="index.html"><i class="homeIcon fas fa-home"></i></i></a></li>
+                        <li class="liMain"><a href="">Diabetes</a>
+                            <ul class="subMenu">
+                                <li class="liSon"><a href="diabetes.html">Info</a></li>
+                                <li class="liSon"><a href="#"></a>Control</li>
+                            </ul>
+                        </li>
+                        <li class="liMain"><a href="#">Tension</a>
+                            <ul class="subMenu">
+                                <li class="liSon"><a href="tension.html"></a>Info</li>
+                                <li class="liSon"><a href="#"></a>Control</li>
+                            </ul>
+                        </li>
+                        <li class="liMain"><a href="#"><i class="optionsIcon fas fa-cog"></i></a></li>
+                    </ul>
+                </nav>
+
             </header>
+        <div id="containerSelection" class="containerSelection">
+            <h2 class="h2Selection">Seleccione una opcion</h2>
+            <div class="selection" >
+                <a href="diabetes.html">
+                    <div id="selectionDiabetes" class="divSel selectionDiabetes">
+                        <h4>Diabetes</h4>
+                        <div class="hoverEfect"></div>
+                    </div>
+                </a>
+                
+                <a href="tension.html">
+                    <div id="selectionTension" class="divSel selectionTension">
+                        <h4>Tension</h4>
+                        <div class="hoverEfect2"></div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div id="containerSelection">
-            <h2>Seleccione una opcion</h2>
-            <div id="selectionDiabetes">Diabetes</div>
-            <div id="selectionTension">Tension</div>
-        </div>
-        <div id="containerNews">
-            <h2>titulo info</h2>
+        <div id="containerNews" class="containerNews">
+            <h2 class="h2News" id="h2News">titulo info</h2>
             <div id="newsText">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus id quia laborum placeat iste laudantium exercitationem? Esse, illo dolor exercitationem incidunt eum ratione cupiditate rem veniam optio quam quaerat!
+                <p class="newsText" id="newText">
+                    Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Aliquid magnam accusantium 
+                    perferendis cumque amet natus nisi, rerum ad 
+                    dicta similique consequatur ipsam aperiam repudiandae 
+                    nobis voluptas quis eos quod ex.
                 </p>
-            </div>
+                </div>
         </div>
-        <div id="containerAboutUs">
-            <div id="containerInfoAboutUs">
-                <h1>Acerca de nosotros</h1>
-                <h2>¿Que es ValiSalud?</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea magni reiciendis animi aperiam perferendis id expedita quam! Aut tenetur nemo ea quibusdam, consectetur cum numquam vero possimus provident at.
-                </p>
-                <br>
-                <h2>Origen</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea magni reiciendis animi aperiam perferendis id expedita quam! Aut tenetur nemo ea quibusdam, consectetur cum numquam vero possimus provident at.
-                </p>
-            </div>
-            <div id="containerMembers">
-                <div id="member">
+        <div id="containerAboutUs" class="containerAboutUs">
+            <h1>Acerca de nosotros</h1>
+                <div class="containerAboutInfo">
+                    
+                    <div class="divInfo whatIs" id="divInfo">
+                        
+                        
+                            <h2>¿Que es ValiSalud?</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea magni reiciendis animi aperiam perferendis id expedita quam! Aut tenetur nemo ea quibusdam, consectetur cum numquam vero possimus provident at.
+                            </p>
+                        </div>
+                        
+                        <div class="divInfo origin" id="divInfo">
+        
+                            <h2>Origen</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea magni reiciendis animi aperiam perferendis id expedita quam! Aut tenetur nemo ea quibusdam, consectetur cum numquam vero possimus provident at.
+                            </p>
+                        </div>
+                </div>
+
+            <div id="containerMembers" class="containerMembers">
+                <div class="member" id="member">
                     <div id="m1">
-                        <img src="" alt="">
+                        <img src="img/diego.jpg" alt="">
                     </div>
-                    <h3>Nombre</h3>
+                    <h3>Diego Garay Fonseca</h3>
                     <ul id="infoMember">
                         <li>Carera:Ing.Sistemas</li>
-                        <li>Semestre:</li>
+                        <li>Semestre: Tercero</li>
                         <li>Edad:</li>
                     </ul>
                 </div>
-                <div id="member">
+                <div class="member" id="member">
                     <div id="m1">
-                        <img src="" alt="">
+                        <img src="img/julian.png" alt="">
                     </div>
-                    <h3>Nombre</h3>
+                    <h3>Joshua Julian Cobos Bautista</h3>
                     <ul id="infoMember">
                         <li>Carera:Ing.Sistemas</li>
-                        <li>Semestre:</li>
+                        <li>Semestre: Tercero</li>
                         <li>Edad:</li>
                     </ul>
                 </div>
-                <div id="member">
+                <div class="member" id="member">
                     <div id="m1">
                         <img src="" alt="">
                     </div>
-                    <h3>Nombre</h3>
+                    <h3>Oscar Andrey Cristiano Acevedo</h3>
                     <ul id="infoMember">
                         <li>Carera:Ing.Sistemas</li>
-                        <li>Semestre:</li>
+                        <li>Semestre: Tercero</li>
                         <li>Edad:</li>
                     </ul>
                 </div>
